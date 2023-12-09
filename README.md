@@ -1,7 +1,7 @@
 # Classes de um Jogo - Heróis e Ataques
 
 ## Descrição
-Este projeto envolve a criação de uma classe genérica para representar heróis em um jogo de aventura. A classe deve conter propriedades como nome, idade e tipo (guerreiro, mago, monge, ninja) para o herói. Além disso, deve implementar um método chamado `atacar` que exibe uma mensagem conforme o tipo de herói e seu ataque específico.
+Este projeto envolve a criação de uma classe genérica para representar heróis em um jogo de aventura. A classe contém propriedades como nome, idade e tipo (guerreiro, mago, monge, ninja) para o herói. Além disso, implementa um método chamado `atacar` que exibe uma mensagem conforme o tipo de herói e seu ataque específico.
 
 ## Funcionalidades
 - Criação de uma classe para representar heróis.
