@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <title>Heros Attack</title>
+</head>
+<body>
+  <h1>Heros Attack</h1>
+  <div id="heroInfo">
+    <label for="heroName">Nome: </label>
+    <input type="text" id="heroName">
+    <label for="heroAge">Idade: </label>
+    <input type="number" id="heroAge">
+    <label for="heroType">Tipo: </label>
+    <select id="heroType">
+      <option value="mago">Mago</option>
+      <option value="guerreiro">Guerreiro</option>
+      <option value="monge">Monge</option>
+      <option value="ninja">Ninja</option>
+    </select>
+    <button onclick="atacar()" id="btnAtacar">Atacar</button>
+  </div>
+  <div id="result"></div>
+
+  <script src="./src/scripts/engine.js"></script>
+</body>
+</html>
